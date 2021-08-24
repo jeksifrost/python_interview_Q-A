@@ -9,7 +9,9 @@ git add .
 ```
 
 **git commit -m **"Commit message"****  
-Создание "слепка" всех отслеживаемых файлов проекта
+Создание "слепка" всех отслеживаемых файлов проекта  
+![Commit_before](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/1a_commit.png)
+![Commit_after](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/1b_commit.png)
 
 **git branch**  
 
