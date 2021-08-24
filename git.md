@@ -32,7 +32,10 @@ git add .
 ![Before merge](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/31_merge.png)
 ![After merge](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/32_merge.png)  
 
-
+**git rebase *Branch_name***  
+Копирует текущую ветку со всеми коммитами и присоединяет к последнему коммиту указанной ветки
+![Before rebase](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/41_rebase.png)
+![After rebase](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/42_rebase.png)  
 
 
 **Полезные ссылки:**  
