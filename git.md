@@ -22,7 +22,10 @@ git add .
 ![After new_branch](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/22_branch.png)  
 
 **git checkout *New_branch_name***  
-Переключение на новую ветку  
+Перенести HEAD на новую ветку. Можно также перенести на коммит  
+```
+git checkout *commit_hash*
+```  
 
 **git checkout -b *New_branch_name***  
 Одновременное создание новой ветки и переключение на неё  
