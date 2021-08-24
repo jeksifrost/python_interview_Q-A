@@ -41,7 +41,20 @@
 
 ```git branch -f main HEAD~3```  
 ```git branch -f main HEAD~3```  
-Перенести ветку на несколько коммитов назад или к определённому коммиту
+Перенести ветку на несколько коммитов назад или к определённому коммиту  
+
+```git reset HEAD~1```  
+```git reset Commit_hash```  
+Удаление коммита/коммитов и откат к предыдущему (для локального репозитория)  
+![Before reset](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/51_reset.png)  
+![After reset](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/52_reset.png)  
+
+
+```git revert HEAD```  
+```git revert Commit_hash```  
+Удаление коммита/коммитов и откат к предыдущему (для удалённого репозитория)  
+![Before reset](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/61_revert.png)  
+![After reset](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/62_revert.png)  
 
 
 **Полезные ссылки:**  
