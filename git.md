@@ -1,4 +1,4 @@
-## git status
+# git status
 Проверка статуса проекта git
 
 ## git add **file_name**
