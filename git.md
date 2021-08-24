@@ -5,7 +5,7 @@
 ```git add .```  
 Добавление файла **file_name** в отслеживаемые (добавление в индекс), либо добавление в индекс всех файлов    
 
-```git commit -m *"Commit message"*```  
+```git commit -m "Commit message"```  
 Создание "слепка" всех отслеживаемых файлов проекта  
 ![Before commit](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/11_commit.png)
 ![After commit](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/12_commit.png)
