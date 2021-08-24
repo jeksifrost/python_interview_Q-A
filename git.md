@@ -10,8 +10,10 @@ git add .
 
 **git commit -m **"Commit message"****  
 Создание "слепка" всех отслеживаемых файлов проекта  
-![Commit_before](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/1a_commit.png)
-![Commit_after](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/1b_commit.png)
+![Commit_before](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/11_commit.png)
+![Commit_after](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/12_commit.png)
+![Commit_before_with_branch](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/13_commit.png)
+![Commit_after_with_branch](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/14_commit.png)
 
 **git branch**  
 
