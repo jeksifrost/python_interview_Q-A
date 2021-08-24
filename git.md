@@ -17,7 +17,7 @@ git add .
 1 - до коммита, 2 - после коммита, 3 - до коммита если есть новая ветка, 4 - после коммита если есть новая ветка  
 
 **git branch**  
-Создание новой ветки
+Создание новой ветки  
 ![Commit_after_with_branch](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/21_branch.png)  
 ![Commit_after_with_branch](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/22_branch.png)  
 
