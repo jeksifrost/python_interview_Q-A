@@ -18,9 +18,12 @@
 ![Before new_branch](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/21_branch.png)
 ![After new_branch](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/22_branch.png)  
 
-```git checkout *New_branch_name*```  
-```git checkout *commit_hash*```  
-Перенести HEAD на новую ветку. Можно также перенести на коммит  
+```git checkout New_branch_name```  
+```git checkout Commit_hash```  
+```git checkout Branch_name^```  
+```git checkout HEAD^```  
+```git checkout HEAD~3```  
+Перенести HEAD на новую ветку. Можно также перенести на определенный коммит, на родительский коммит, на определённое количество коммитов назад  
 
 
 ```git checkout -b *New_branch_name*```  
@@ -31,10 +34,14 @@
 ![Before merge](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/31_merge.png)
 ![After merge](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/32_merge.png)  
 
-```git rebase *Branch_name```  
+```git rebase Branch_name```  
 Копирует текущую ветку со всеми коммитами и присоединяет к последнему коммиту указанной ветки
 ![Before rebase](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/41_rebase.png)
 ![After rebase](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/42_rebase.png)  
+
+```git branch -f main HEAD~3```  
+```git branch -f main HEAD~3```  
+Перенести ветку на несколько коммитов назад или к определённому коммиту
 
 
 **Полезные ссылки:**  
