@@ -56,6 +56,16 @@
 ![Before reset](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/61_revert.png)
 ![After reset](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/62_revert.png)  
 
+```git cherry-pick Commit_hash Commit_hash```
+Копирование указанных коммитов в текущую ветку  
+![Before cherry-pick](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/71_cherry-pick.png)
+![After cherry-pick](https://github.com/jeksifrost/python_interview_Q-A/blob/main/images/git/72_cherry-pick.png)  
+
+```git rebase -i Branch_name```  
+```git rebase -i Commit_hash```  
+```git rebase -i HEAD~4```  
+Интерактивный режим rebase, в котором можно менять порядок коммитов, исключать ненужные, объединять, менять описание.  
+
 
 **Полезные ссылки:**  
 https://learngitbranching.js.org/ - тренажёр по Git на английском
